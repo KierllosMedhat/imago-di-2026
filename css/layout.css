@@ -1,0 +1,148 @@
+/* ===========================
+       NAVIGATION
+    =========================== */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(13,27,42,0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--glass-border);
+      transition: var(--transition);
+    }
+
+    nav.scrolled {
+      padding: 0.6rem 2.5rem;
+      background: rgba(13,27,42,0.97);
+    }
+
+    .nav-logo {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 2px;
+      text-shadow: 0 0 20px rgba(201,162,39,0.5);
+    }
+
+    .nav-logo span {
+      font-size: 0.7rem;
+      display: block;
+      color: var(--gold-pale);
+      font-family: 'Tajawal', sans-serif;
+      font-weight: 300;
+      letter-spacing: 1px;
+      opacity: 0.8;
+      margin-top: -2px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--gold-pale);
+      opacity: 0.8;
+      transition: var(--transition);
+      position: relative;
+      padding-bottom: 4px;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0; right: 0;
+      width: 0; height: 1px;
+      background: var(--gold);
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover { opacity: 1; color: var(--gold); }
+    .nav-links a:hover::after { width: 100%; }
+
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      padding: 5px;
+    }
+
+    .nav-toggle span {
+      display: block;
+      width: 25px;
+      height: 2px;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: var(--transition);
+    }
+
+    
+/* ===========================
+       FOOTER
+    =========================== */
+    footer {
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--glass-border);
+      background: rgba(8,16,26,0.9);
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Cinzel', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: 4px;
+      text-shadow: 0 0 30px rgba(201,162,39,0.4);
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-subtitle {
+      font-size: 0.85rem;
+      color: var(--gold-pale);
+      opacity: 0.5;
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .footer-divider {
+      width: 60px; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 1.5rem auto;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-links a {
+      font-size: 0.85rem;
+      color: var(--gold-pale);
+      opacity: 0.6;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover { opacity: 1; color: var(--gold); }
+
+    .footer-copy {
+      font-size: 0.78rem;
+      color: var(--gold-pale);
+      opacity: 0.35;
+      line-height: 1.8;
+    }
+
+    

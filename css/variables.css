@@ -1,0 +1,21 @@
+/* ===========================
+       CSS CUSTOM PROPERTIES
+    =========================== */
+    :root {
+      --gold: #C9A227;
+      --gold-light: #E8C84A;
+      --gold-pale: #F5E6C8;
+      --blue-deep: #0D1B2A;
+      --blue-mid: #142337;
+      --blue-accent: #1E3A5F;
+      --purple-deep: #1A0A2E;
+      --white: #FFFFFF;
+      --cream: #FDF6E3;
+      --glass-bg: rgba(255,255,255,0.07);
+      --glass-border: rgba(201,162,39,0.25);
+      --shadow-gold: 0 0 40px rgba(201,162,39,0.3);
+      --radius: 20px;
+      --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    
