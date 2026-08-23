@@ -524,7 +524,7 @@
       position: absolute;
       inset: 0;
       display: flex;
-      margin-top: 75px;
+      margin-top: 15%;
       align-items: top;
       justify-content: center;
       pointer-events: none;
