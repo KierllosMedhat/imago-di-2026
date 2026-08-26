@@ -524,15 +524,14 @@
       position: absolute;
       inset: 0;
       display: flex;
-      margin-top: 15%;
-      align-items: top;
+      align-items: center;
       justify-content: center;
       pointer-events: none;
     }
 
     .face-guide {
-      width: 40%;
-      height: 60%;
+      width: 60%;
+      height: 85%;
       border: 2px dashed rgba(201,162,39,0.5);
       border-radius: 50% 50% 45% 45%;
       box-shadow: 0 0 0 2000px rgba(0,0,0,0.2);
