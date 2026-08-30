@@ -9,7 +9,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 1rem 2.5rem;
-      background: rgba(13,27,42,0.85);
+      background: rgba(33,53,4,0.85);
       backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--glass-border);
       transition: var(--transition);
@@ -17,7 +17,7 @@
 
     nav.scrolled {
       padding: 0.6rem 2.5rem;
-      background: rgba(13,27,42,0.97);
+      background: rgba(33,53,4,0.97);
     }
 
     .nav-logo {
@@ -26,7 +26,7 @@
       font-weight: 700;
       color: var(--gold);
       letter-spacing: 2px;
-      text-shadow: 0 0 20px rgba(201,162,39,0.5);
+      text-shadow: 0 0 20px rgba(243,195,88,0.5);
     }
 
     .nav-logo span {
@@ -93,7 +93,7 @@
       position: relative;
       z-index: 1;
       border-top: 1px solid var(--glass-border);
-      background: rgba(8,16,26,0.9);
+      background: rgba(20,33,2,0.9);
       padding: 3rem 2rem 2rem;
       text-align: center;
     }
@@ -104,7 +104,7 @@
       font-weight: 900;
       color: var(--gold);
       letter-spacing: 4px;
-      text-shadow: 0 0 30px rgba(201,162,39,0.4);
+      text-shadow: 0 0 30px rgba(243,195,88,0.4);
       margin-bottom: 0.5rem;
     }
 
@@ -146,3 +146,4 @@
     }
 
     
+
