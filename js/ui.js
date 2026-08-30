@@ -99,10 +99,13 @@
   const lbImg = document.getElementById('lightbox-img');
   const lbClose = document.getElementById('lightbox-close');
 
-  document.querySelectorAll('.gallery-item img').forEach(img => {
-    img.addEventListener('click', () => {
-      lbImg.src = img.src;
-      lb.classList.add('show');
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const img = item.querySelector('img');
+      if (img) {
+        lbImg.src = img.src;
+        lb.classList.add('show');
+      }
     });
   });
 

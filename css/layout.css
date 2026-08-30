@@ -138,6 +138,33 @@
 
     .footer-links a:hover { opacity: 1; color: var(--gold); }
 
+    .footer-socials {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-socials a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(243,195,88,0.05);
+      border: 1px solid rgba(243,195,88,0.2);
+      color: var(--gold-pale);
+      transition: var(--transition);
+    }
+
+    .footer-socials a:hover {
+      background: rgba(243,195,88,0.15);
+      color: var(--gold);
+      border-color: rgba(243,195,88,0.5);
+      transform: translateY(-3px);
+    }
+
     .footer-copy {
       font-size: 0.78rem;
       color: var(--gold-pale);
